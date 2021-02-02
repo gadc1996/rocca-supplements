@@ -1,0 +1,21 @@
+@use 'variables';
+
+nav {
+	display: flex;
+	justify-content: center;
+	text-align: space-around;
+	align-items: center;
+	background-color: variables.$green;
+
+	.logo {
+		max-width: 50px;
+	}
+	.navLink {
+		width: 20%;
+		margin: 0 1em;
+		text-align: center;
+		color: white;
+		font-size: 1.3em;
+		font-weight: 900;
+	}
+}
