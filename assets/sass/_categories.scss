@@ -1,0 +1,27 @@
+@use 'variables';
+
+.categories {
+	padding: 2em 3em;
+	.title {
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		.section-box {
+			color: black;
+			background-color: white;
+			transition: 0.3s;
+			width: 30%;
+			text-align: center;
+			padding: 2em 0;
+			margin: 1em 0;
+		}
+		.section-box:hover {
+			color: variables.$green;
+			opacity: 0.9;
+			box-shadow: 0px 0px 10px #bbb;
+		}
+	}
+}
