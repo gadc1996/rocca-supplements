@@ -5,17 +5,22 @@ nav {
 	justify-content: center;
 	text-align: space-around;
 	align-items: center;
-	background-color: variables.$green;
-
+	background-color: white;
 	.logo {
 		max-width: 50px;
 	}
 	.navLink {
+		color: black;
 		width: 20%;
 		margin: 0 1em;
 		text-align: center;
-		color: white;
-		font-size: 1.3em;
+		font-size: 1.1em;
 		font-weight: 900;
+	}
+	.navLink:hover {
+		color: variables.$green;
+	}
+	.active {
+		color: variables.$green;
 	}
 }
