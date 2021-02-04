@@ -19,7 +19,6 @@ nav {
   text-align: space-around;
   align-items: center;
   background-color: white;
-  border-bottom: 1px solid #bbbbbb;
 }
 nav .logo {
   max-width: 50px;
@@ -119,31 +118,6 @@ nav .active {
   color: #84ff33;
   opacity: 0.9;
   box-shadow: 0px 0px 10px #bbb;
-}
-
-footer {
-  background-color: black;
-  padding: 3rem 5rem;
-  display: flex;
-  justify-content: space-around;
-}
-footer .social-link {
-  color: white;
-}
-footer .social-link .social-icon {
-  font-size: 2rem;
-}
-
-.product {
-  display: flex;
-  justify-content: space-around;
-  padding: 5rem;
-}
-.product .product-image {
-  width: 45%;
-}
-.product .product-description {
-  width: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */
