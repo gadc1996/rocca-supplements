@@ -1,0 +1,11 @@
+<?php
+get_header(); 
+include('components/banner1.php'); 
+include('components/products-section1.php');
+include('components/categories-section.php');
+include('components/banner2.php'); 
+include('components/products-section2.php');
+include('components/products-section3.php');
+include('components/banner3.php'); 
+get_footer();
+?>

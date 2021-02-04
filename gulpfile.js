@@ -1,22 +1,19 @@
-let gulp = require("gulp");
-let uglifycss = require("gulp-uglifycss");
-let rename = require("gulp-rename");
+const gulp = require("gulp");
+const uglifycss = require("gulp-uglifycss");
+const rename = require("gulp-rename");
 
-//Sass is parsed with sass compiler
-//gulp sass dont work that well
-let paths = {
-	styles: {
-		src: "assets/css/style.css",
-		dest: "assets/css",
+const paths = {
+	style: {
+		src: "style.css",
+		dest: "assets/css/",
 	},
 };
-
-function css() {
+function cleancss() {
 	return gulp
-		.src(paths.styles.css)
+		.src("assets/css/style.css")
 		.pipe(uglifycss())
 		.pipe(rename("style.min.css"))
-		.pipe(gulp.dest(paths.styles.dest));
+		.pipe(gulp.dest("assets/css/"));
 }
 
-exports.css = css;
+exports.cleancss = cleancss;

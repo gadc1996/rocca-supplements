@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*
+Theme Name: Roca Supplements 
+Theme URI: 
+Author: Alex Delgado 
+Author URI: http://alex-delgado.com.mx 
+Description: Custum wordpres theme, www.rocasupplements.com
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Roca Supplements 
+Tags: Gym, Supplements, fitness, bodybulding 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	text-align: space-around;
+	align-items: center;
+	background-color: white;
+}
+nav .logo {
+	max-width: 50px;
+}
+nav .navLink {
+	color: black;
+	width: 20%;
+	margin: 0 1em;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 900;
+}
+nav .navLink:hover {
+	color: #84ff33;
+}
+nav .active {
+	color: #84ff33;
+}
+.banner {
+	position: relative;
+	background-color: black;
+	height: 20em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 4em;
+	color: white;
+}
+.banner .bannerImage {
+	position: absolute;
+	right: 10%;
+	height: 100%;
+}
+.banner .title {
+	margin: 1em 0;
+}
+.banner .subtitle {
+	margin: 1em 0;
+}
+.banner .info-button {
+	padding: 1em 2em;
+	background-color: #84ff33;
+	width: 7em;
+	text-align: center;
+	color: white;
+}
+.banner .info-button:hover {
+	opacity: 0.9;
+}
+.products {
+	background-color: white;
+	padding: 2em 3em;
+}
+.products .title {
+	margin: 0;
+}
+.products .product-row {
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5em 0;
+}
+.products .product-row .product-box {
+	text-align: center;
+}
+.products .product-row .product-box .category {
+	margin: 0;
+	font-size: 0.7em;
+	color: #444;
+}
+.products .product-row .product-box .product-name {
+	margin: 0;
+}
+.categories {
+	padding: 2em 3em;
+}
+.categories .title {
+	margin: 0;
+}
+.categories .row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.categories .row .section-box {
+	color: black;
+	background-color: white;
+	transition: 0.3s;
+	width: 30%;
+	text-align: center;
+	padding: 2em 0;
+	margin: 1em 0;
+}
+.categories .row .section-box:hover {
+	color: #84ff33;
+	opacity: 0.9;
+	box-shadow: 0 0 10px #bbb;
+}
