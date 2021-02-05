@@ -18,7 +18,7 @@ add_action('after_setup_theme', 'themeInit');
 
 //Custom post types
 function create_posttype() {
-    register_post_type( 'Articulos',
+    register_post_type( 'articulos',
         array(
 						'rewrite' => array('slug' => 'Articulos'),
             'labels' => array(
