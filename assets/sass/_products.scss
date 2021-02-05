@@ -10,10 +10,24 @@
 		padding: 1.5em 0;
 		.product-box {
 			text-align: center;
+			width: 20%;
+			.product-image {
+				width: 100%;
+			}
 			.category {
 				margin: 0;
 				font-size: 0.7em;
-				color: #444;
+				.post-categories {
+					display: flex;
+					padding: 0;
+					justify-content: center;
+					li {
+						list-style: none;
+						a {
+							color: #444;
+						}
+					}
+				}
 			}
 			.product-name {
 				margin: 0;
