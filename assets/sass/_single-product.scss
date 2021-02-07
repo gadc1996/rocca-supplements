@@ -1,0 +1,11 @@
+.article {
+	display: flex;
+	padding: 5rem;
+	justify-content: space-around;
+	.article-image {
+		width: 40%;
+	}
+	.article-info {
+		width: 40%;
+	}
+}

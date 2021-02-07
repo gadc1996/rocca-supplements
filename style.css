@@ -16,9 +16,10 @@ a:hover {
 nav {
   display: flex;
   justify-content: center;
-  text-align: space-around;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
+  border-bottom: 1px solid #333;
 }
 nav .logo {
   max-width: 50px;
@@ -76,6 +77,7 @@ nav .active {
 }
 .products .title {
   margin: 0;
+  text-transform: capitalize;
 }
 .products .product-row {
   display: flex;
@@ -113,6 +115,7 @@ nav .active {
 }
 .categories .title {
   margin: 0;
+  text-transform: capitalize;
 }
 .categories .row {
   display: flex;
@@ -132,6 +135,32 @@ nav .active {
   color: #84ff33;
   opacity: 0.9;
   box-shadow: 0px 0px 10px #bbb;
+}
+
+footer {
+  background: black;
+  padding: 2em 5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .social-link {
+  color: white;
+}
+footer .social-link .social-icon {
+  font-size: 2rem;
+}
+
+.article {
+  display: flex;
+  padding: 5rem;
+  justify-content: space-around;
+}
+.article .article-image {
+  width: 40%;
+}
+.article .article-info {
+  width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */

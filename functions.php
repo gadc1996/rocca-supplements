@@ -20,7 +20,7 @@ add_action('after_setup_theme', 'themeInit');
 function create_posttype() {
     register_post_type( 'articulos',
         array(
-						'rewrite' => array('slug' => 'Articulos'),
+						'rewrite' => array('slug' => 'articulos'),
             'labels' => array(
                 'name' => 'Articulos' ,
 								'singular_name' => 'Articulos',
@@ -31,6 +31,7 @@ function create_posttype() {
             'public' => true,
 						'taxonomies' => array('category'),
             'has_archive' => true,
+						'publicly_queryable' => true,
 						'supports' => array(
 							'title','thumbnail','editor', 'excerpt'
 						) 

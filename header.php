@@ -8,11 +8,11 @@
 	<body>
 		<header>
 			<nav>
-			<img class="logo" src="<?php bloginfo('template_url'); ?>/assets/img/logo.jpeg" alt="logo">
-				<a class="navLink" href="index.html">INICIO</a>
-				<a class="navLink" href="category.html">PRODUCTOS</a>
-				<a class="navLink" href="blog.html">BLOG</a>
-				<a class="navLink" href="contact.html">CONTACTO</a>
+				<a href="<?php echo site_url('/index.php'); ?>"><img class="logo" src="<?php bloginfo('template_url'); ?>/assets/img/logo.jpeg" alt="logo"></a>
+				<a class="navLink" href="<?php echo site_url('/index.php'); ?>">INICIO</a>
+				<a class="navLink" href="<?php echo site_url('/index.php'); ?>/articulos">PRODUCTOS</a>
+				<a class="navLink" href="<?php echo site_url('/index.php'); ?>/blog">BLOG</a>
+				<a class="navLink" href="#footer">CONTACTO</a>
 			</nav>
 		</header>
 

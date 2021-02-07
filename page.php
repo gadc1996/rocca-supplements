@@ -1,10 +1,14 @@
+<?php
+get_header(); 
+?>
 <section class="products">
-	<h2 class="title">ENTRADAS DE BLOG RECIENTES</h2>
+	<h2 class="title">Blog</h2>
 	<hr>
 	<div class="product-row"><?php
 		$Args = array(
 			'post_type' => 'post',
 			'posts_per_page' => 8,
+			//'category_name' => 'destacados',
 		);
 		$featured = new WP_Query($Args);
 
@@ -43,4 +47,6 @@
 	?>
 		</div>
 </section>
-	
+<?php	
+get_footer();
+?>

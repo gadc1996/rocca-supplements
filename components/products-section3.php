@@ -1,5 +1,5 @@
 	<section class="products">
-	<h2 class="title">ENTRADAS DE BLOG RECIENTES</h2>
+	<h2 class="title">ESPECIALES DEL MES</h2>
 	<hr>
 	<div class="product-row"><?php
 		$Args = array(
